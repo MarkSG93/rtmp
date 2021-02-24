@@ -5,7 +5,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/WatchBeam/rtmp/handshake"
+	"github.com/MarkSG93/rtmp/handshake"
 	"github.com/stretchr/testify/assert"
 )
 

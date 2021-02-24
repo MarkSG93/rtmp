@@ -1,8 +1,8 @@
 package conn
 
 import (
-	"github.com/WatchBeam/amf0"
-	"github.com/WatchBeam/amf0/encoding"
+	"github.com/microsoft/amf0"
+	"github.com/microsoft/amf0/encoding"
 )
 
 const (

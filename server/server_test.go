@@ -4,8 +4,8 @@ import (
 	"net"
 	"testing"
 
-	"github.com/WatchBeam/rtmp/client"
-	"github.com/WatchBeam/rtmp/server"
+	"github.com/MarkSG93/rtmp/client"
+	"github.com/MarkSG93/rtmp/server"
 	"github.com/stretchr/testify/assert"
 )
 

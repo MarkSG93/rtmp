@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/WatchBeam/rtmp/handshake"
+	"github.com/MarkSG93/rtmp/handshake"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -31,7 +31,7 @@ func TestItReadsC1Packet(t *testing.T) {
 
 func TestItErorrsOnBadC1Packets(t *testing.T) {
 	buf := bytes.NewBuffer([]byte{
-	// Empty C1 ~> io.EOF
+		// Empty C1 ~> io.EOF
 	})
 
 	c := handshake.NewClientAckSequence()

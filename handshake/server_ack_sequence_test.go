@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/WatchBeam/rtmp/handshake"
+	"github.com/MarkSG93/rtmp/handshake"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -49,7 +49,7 @@ func TestServerAckSequenceReportsErroredReads(t *testing.T) {
 	s := handshake.NewServerAckSequence(nil)
 
 	err := s.Read(bytes.NewBuffer([]byte{
-	// Empty buffer ~> io.EOF
+		// Empty buffer ~> io.EOF
 	}))
 
 	assert.Equal(t, io.EOF, err)

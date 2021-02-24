@@ -3,7 +3,7 @@ package chunk
 import (
 	"io"
 
-	"github.com/WatchBeam/rtmp/spec"
+	"github.com/MarkSG93/rtmp/spec"
 )
 
 // ExtendedTimestamp is an extra, optional, part of the standard RTMP chunk

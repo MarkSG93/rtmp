@@ -3,7 +3,7 @@ package data
 import (
 	"errors"
 
-	"github.com/WatchBeam/rtmp/chunk"
+	"github.com/MarkSG93/rtmp/chunk"
 )
 
 var (

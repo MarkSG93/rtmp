@@ -3,9 +3,9 @@ package data
 import (
 	"bytes"
 
-	"github.com/WatchBeam/amf0"
-	"github.com/WatchBeam/amf0/encoding"
-	"github.com/WatchBeam/rtmp/chunk"
+	"github.com/MarkSG93/rtmp/chunk"
+	"github.com/microsoft/amf0"
+	"github.com/microsoft/amf0/encoding"
 )
 
 // DataFrame encapsulates the "@setDataFrame" type sent over the Data stream.

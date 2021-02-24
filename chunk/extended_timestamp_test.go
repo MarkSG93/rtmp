@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/WatchBeam/rtmp/chunk"
-	"github.com/WatchBeam/rtmp/spec"
+	"github.com/MarkSG93/rtmp/chunk"
+	"github.com/MarkSG93/rtmp/spec"
 	"github.com/stretchr/testify/assert"
 )
 

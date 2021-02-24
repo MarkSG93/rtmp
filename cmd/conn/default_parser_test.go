@@ -5,8 +5,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/WatchBeam/amf0"
-	"github.com/WatchBeam/rtmp/cmd/conn"
+	"github.com/MarkSG93/rtmp/cmd/conn"
+	"github.com/microsoft/amf0"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -47,7 +47,7 @@ func TestParseParsesReadersIntoReceivables(t *testing.T) {
 
 func TestParseFailsWhenNoMatchingCommandIsPresent(t *testing.T) {
 	p := conn.NewParser(map[string]conn.ReceviableFactory{
-	// No types
+		// No types
 	})
 
 	r, err := p.Parse(amf0.NewString("not-a-type"), new(bytes.Buffer))

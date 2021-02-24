@@ -1,9 +1,9 @@
 package stream
 
 import (
-	"github.com/WatchBeam/amf0"
-	"github.com/WatchBeam/amf0/encoding"
-	"github.com/WatchBeam/rtmp/chunk"
+	"github.com/MarkSG93/rtmp/chunk"
+	"github.com/microsoft/amf0"
+	"github.com/microsoft/amf0/encoding"
 )
 
 const (

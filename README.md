@@ -2,7 +2,7 @@
 
 [![Build
 Status](https://travis-ci.org/WatchBeam/rtmp.svg?branch=master)](https://travis-ci.org/WatchBeam/rtmp)
-[![GoDoc](https://godoc.org/github.com/WatchBeam/rtmp?status.svg)](https://godoc.org/github.com/WatchBeam/rtmp)
+[![GoDoc](https://godoc.org/github.com/MarkSG93/rtmp?status.svg)](https://godoc.org/github.com/MarkSG93/rtmp)
 
 `rtmp` is a Golang implementation of the RTMP specification, found
 [here](http://www.adobe.com/devnet/rtmp.html). It is entirely specification
@@ -20,7 +20,7 @@ other Go packages by simply importing it. To make `rtmp` available in your
 environment, simply `go get` it:
 
 ```
-go get github.com/WatchBeam/rtmp
+go get github.com/MarkSG93/rtmp
 ```
 
 Alternatively, you can lock `rtmp` as a dependency, or fetch it using
@@ -44,7 +44,7 @@ from a server follows:
 package main
 
 import (
-        "github.com/WatchBeam/rtmp/server"
+        "github.com/MarkSG93/rtmp/server"
 )
 
 func main() {
@@ -70,14 +70,14 @@ The client, on the other hand, has many jobs. It serves as the top node in a
 tree, capable of calling into all other packages dealing with particular parts
 of the RTMP specification. For example, the client knows how to:
 
-  * Handshake itself by using the `github.com/WatchBeam/rtmp/handshake` package
-  * Receive RTMP control sequences using the `github.com/WatchBeam/rtmp/control`
+  * Handshake itself by using the `github.com/MarkSG93/rtmp/handshake` package
+  * Receive RTMP control sequences using the `github.com/MarkSG93/rtmp/control`
     package
   * More to come...
 
 For more information on all of the things that the client can do, see the
 [relevant
-documentation](https://godoc.org/github.com/WatchBeam/rtmp/client#Client).
+documentation](https://godoc.org/github.com/MarkSG93/rtmp/client#Client).
 
 ## License
 
